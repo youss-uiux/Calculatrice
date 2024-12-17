@@ -1,15 +1,16 @@
-console.log("First calculator")
+console.log("First calculator");
 
-class Substraction {
-    private a: number;
+class Adittion {
+	private a: number;
     private b: number;
+    addition: number;
 
-    constructor(a: number, b: number) {
-        this.a = a;
-        this.b = b;
-    }
-
-    public substract(): number {
-        return this.a - this.b;
-    }
+	constructor(n: number, m: number) {
+		this.a = n;
+        this.b = m;
+        this.addition = this.a + this.b;
+	}
 }
+
+const calc = new Adittion(2, 3);
+console.log(calc.addition);
