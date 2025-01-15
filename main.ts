@@ -24,6 +24,18 @@ class Subtraction {
     }
 }
 
+class Division {
+    private a: number;
+    private b: number;
+    division: number;
+
+    constructor(n: number, m: number) {
+        this.a = n;
+        this.b = m;
+        this.division = this.a / this.b;
+    }
+}
+
 class Subtraction {
     private a: number;
     private b: number;
