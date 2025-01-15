@@ -12,5 +12,17 @@ class Adittion {
 	}
 }
 
+class Subtraction {
+    private a: number;
+    private b: number;
+    subtraction: number;
+
+    constructor(n: number, m: number) {
+        this.a = n;
+        this.b = m;
+        this.subtraction = this.a - this.b;
+    }
+}
+
 const calc = new Adittion(2, 3);
 console.log(calc.addition);
