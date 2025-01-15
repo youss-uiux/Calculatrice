@@ -12,6 +12,18 @@ class Adittion {
 	}
 }
 
+class Multiplication {
+    private a: number;
+    private b: number;
+    multiplication: number;
+
+    constructor(n: number, m: number) {
+        this.a = n;
+        this.b = m;
+        this.multiplication = this.a * this.b;
+    }
+}
+
 class Subtraction {
     private a: number;
     private b: number;
