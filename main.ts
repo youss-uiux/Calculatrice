@@ -24,5 +24,17 @@ class Subtraction {
     }
 }
 
+class Division {
+    private a: number;
+    private b: number;
+    division: number;
+
+    constructor(n: number, m: number) {
+        this.a = n;
+        this.b = m;
+        this.division = this.a / this.b;
+    }
+}
+
 const calc = new Adittion(2, 3);
 console.log(calc.addition);
